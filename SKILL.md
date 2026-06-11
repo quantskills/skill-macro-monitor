@@ -1,6 +1,13 @@
 ---
 name: macro-monitor
 description: "Pandadata macro and industry monitoring skill for macro data lookup, economic calendar tracking, industry prosperity analysis, high-frequency macro signals, and recurring macro weekly/monthly reports. Use when the user asks for 宏观数据查询, GDP/CPI/PPI/PMI/社融/M2/利率汇率, 行业景气度, 钢铁/有色/医药/电新/地产等行业宏观, 高频经济信号, 本周经济数据日历, 宏观周报/月报, or scheduled macro monitoring."
+metadata:
+  organization: QuantSkills
+  organization_url: https://github.com/quantskills
+  repository: skill-macro-monitor
+  repository_url: https://github.com/quantskills/skill-macro-monitor
+  project_type: skill
+  collection: macro-monitor
 ---
 
 # Macro Monitor
