@@ -1,5 +1,7 @@
 # 🏛️ Macro Monitor Skill
 
+**简体中文** | [English](README.en.md)
+
 > 把"查 CPI""本周有什么经济数据""钢铁行业景气度怎么样"这类请求，路由到正确的 Pandadata `get_macro_*` 接口，输出带数据时效标注的中文宏观分析与定期监控。
 
 <p align="center">
@@ -20,7 +22,7 @@
 
 宏观数据最大的坑是**指标代码和数据时效**：指标成千上万、代码不可猜，且发布滞后、频繁修订。本技能强制"先 `get_macro_detail` 定位代码，再调数据接口"，并把**数据期 + 发布日期**作为答案的一部分，杜绝把旧数据当当期解读。
 
-> 数据契约一律来自姊妹技能 [`pandadata-api`](../skill-pandadata-api)。
+> 数据契约一律来自姊妹技能 [`pandadata-api`](https://github.com/quantskills/skill-pandadata-api)。
 
 ---
 
