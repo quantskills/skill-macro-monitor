@@ -1,6 +1,9 @@
 ---
 name: macro-monitor
-description: "Pandadata macro and industry monitoring skill for macro data lookup, economic calendar tracking, industry prosperity analysis, high-frequency macro signals, and recurring macro weekly/monthly reports. Use when the user asks for 宏观数据查询, GDP/CPI/PPI/PMI/社融/M2/利率汇率, 行业景气度, 钢铁/有色/医药/电新/地产等行业宏观, 高频经济信号, 本周经济数据日历, 宏观周报/月报, or scheduled macro monitoring."
+description: Pandadata macro and industry monitoring skill for macro data lookup,
+  economic calendar tracking, industry prosperity analysis, high-frequency macro signals,
+  and recurring macro weekly/monthly reports. Use when the user asks for 宏观数据查询, GDP/CPI/PPI/PMI/社融/M2/利率汇率,
+  行业景气度, 钢铁/有色/医药/电新/地产等行业宏观, 高频经济信号, 本周经济数据日历, 宏观周报/月报, or scheduled macro monitoring.
 metadata:
   organization: QuantSkills
   organization_url: https://github.com/quantskills
@@ -8,6 +11,29 @@ metadata:
   repository_url: https://github.com/quantskills/skill-macro-monitor
   project_type: skill
   collection: macro-monitor
+quantSkills:
+  project_type: skill
+  category: monitor
+  tags:
+  - macro
+  - industry
+  - calendar
+  - monitoring
+  - pandadata
+  platforms:
+  - claude-code
+  - codex
+  - openclaw
+  - cursor
+  status: stable
+  validation_level: runnable
+  maintainer_type: official
+  summary_zh: 把"查 CPI""本周有什么经济数据""钢铁行业景气度怎么样"这类请求，路由到正确的 Pandadata getmacro 接口，输出带数据时效标注的中文宏观分析与定期监控。
+  summary_en: Macro monitoring skill for Pandadata macro data, economic calendars,
+    industry prosperity, and high-frequency signals.
+  license: GPL-3.0
+  requires:
+  - skill-pandadata-api
 ---
 
 # Macro Monitor
